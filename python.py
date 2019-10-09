@@ -1,26 +1,35 @@
 import pyautogui as pag
 import time
+import os
+import sys
 
+print(''' before run the code read readme file or help file. otherwise It happens disaster
+''')
+Que =input("Newly installed Corel draw?(Settings have not changed) [(yes) or (no)]")
 for i in range (1,6):
-    time.sleep(0.8)
+    time.sleep(1)
     print(i)
+if Que == 'yes':
+    #create new windows in corel draw (its to work if Newly installed Corel draw and Settings have not changed)   
+    pag.click(x=77, y=153)
+    time.sleep(1)
+    pag.press('backspace')
+    pag.typewrite('python_backgrand',interval=0)
+    pag.click(x=990, y=442)
+    pag.doubleClick(x=931, y=553,interval = 0.25)
+    pag.typewrite('90')
+    pag.doubleClick(x=925, y=585,interval= 0.25)
+    pag.typewrite('50',interval=0.25)
+    pag.click(x=960, y=618,interval=.025)
+    pag.click(x=1001, y=659)
+    pag.typewrite('300',interval=0.25)
+    pag.click()
+    pag.click(x=1025, y=735,interval= 0.25)
+elif Que == 'no' :
+    print('continuee')
+else :
+    sys.exit
     
-###new windows    
-##pag.click(x=77, y=153)
-##time.sleep(1)
-##pag.press('backspace')
-##pag.typewrite('python_backgrand',interval=0)
-##pag.click(x=990, y=442)
-##pag.doubleClick(x=931, y=553,interval = 0.25)
-##pag.typewrite('90')
-##pag.doubleClick(x=925, y=585,interval= 0.25)
-##pag.typewrite('50',interval=0.25)
-##pag.click(x=960, y=618,interval=.025)
-##pag.click(x=1001, y=659)
-##pag.typewrite('300',interval=0.25)
-##pag.click()
-##pag.click(x=1025, y=735,interval= 0.25)
-
 #||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 #ADD COLOR
 pag.click(x=80, y=970,interval=0.5)
@@ -29,21 +38,21 @@ pag.click(x=55, y=974,interval=0.5)
 pag.click(x=65, y=706,interval=0.5)
 #add yello color
 pag.click(x=1131, y=329,interval=0.5)
-pag.moveTo(1003,518,1.5)
+pag.moveTo(1003,518,2)
 pag.doubleClick()
 pag.typewrite('#FFD140',interval=0.5)
 pag.click(x=1133, y=763,interval=0.5)
 pag.moveTo(1133,327,1)
 pag.click()
 #add red color
-pag.moveTo(1000, 518,1.5)
+pag.moveTo(1000, 518,2)
 pag.doubleClick()
 pag.typewrite('#ff0066',interval=0.5)
 pag.click(x=1133, y=763,interval=0.5)
 pag.moveTo(1133,327,0.5)
 pag.click()
 #add blue color
-pag.moveTo(1000, 518,1.5)
+pag.moveTo(1000, 518,2)
 pag.doubleClick()
 pag.typewrite('#4A89BE',interval=0.5)
 pag.click(x=1133, y=763,interval=0.5)
