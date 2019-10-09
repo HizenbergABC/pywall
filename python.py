@@ -1,11 +1,9 @@
 import pyautogui as pag
 import time
-import os
 import sys
 
-print(''' before run the code read readme file or help file. otherwise It happens disaster
-''')
-Que =input("Newly installed Corel draw?(Settings have not changed) [(yes) or (no)]")
+print(''' before run the code read readme file or help file. otherwise It happens disaster\n\n''')
+Que =input("Newly installed Corel draw(Settings have not changed)? [yes] or [no]")
 for i in range (1,6):
     time.sleep(1)
     print(i)
@@ -65,7 +63,6 @@ pag.click()
 
 
 #creation backgrand
-
 pag.click(x=18, y=373,interval=0.5)
 pag.moveTo(x=479, y=304)
 time.sleep(0.5)
@@ -90,7 +87,6 @@ pag.click(x=58, y=102)
 pag.click(x=58, y=120)
 
 #create python lego
-    
 pag.click(x=20, y=373)
 pag.moveTo(x=718, y=522)
 time.sleep(0.5)
@@ -105,8 +101,6 @@ pag.click(x=759, y=392)
 time.sleep(0.25)
 pag.click(x=17, y=157) #this line is for take copy of object
 pag.click(x=854, y=561)
-##pag.rightClick() #laso ths line (copy of object)
-##pag.click(x=889, y=482)
 pag.keyDown('ctrl')
 pag.press('c')
 pag.keyUp('ctrl')
@@ -114,10 +108,8 @@ time.sleep(1)
 pag.keyDown('ctrl')
 pag.press('v')
 pag.keyUp('ctrl')
-##print(pag.position())
 time.sleep(0.5)
 pag.dragTo(815,524,2, button='left')
-##pag.press(['right','right','right','right','right','right','right','right','right','right'])
 pag.keyDown('shift')
 pag.click(x=862, y=578)
 pag.keyUp('shift')
@@ -136,8 +128,6 @@ pag.press('enter')
 pag.moveTo(x=798, y=529)
 pag.dragTo(798,624,2, button='left')
 pag.dragTo(818,560,2, button='left')
-
-##pag.press([])
 
 pag.keyDown('shift')
 pag.click(x=881, y=561)
@@ -181,6 +171,7 @@ pag.click(x=789, y=110)
 pag.press('esc')
 pag.click(x=859, y=601)
 pag.press('del')
+
 #create a circle
 pag.click(x=14, y=405,interval=0.25)
 pag.moveTo(x=477, y=303)
@@ -195,10 +186,10 @@ pag.click(x=788, y=112)
 pag.press('esc')
 pag.click(x=841, y=621)
 pag.press('del')
+
 #create a new python
 pag.click(808,614)
 time.sleep(0.25)
-##pag.click()
 pag.keyDown('ctrl')
 pag.press('c')
 pag.keyUp('ctrl')
@@ -206,6 +197,7 @@ time.sleep(0.5)
 pag.keyDown('ctrl')
 pag.press('v')
 pag.keyUp('ctrl')
+
 #drag the new python
 pag.moveTo(x=808, y=614)
 pag.dragTo(729,552,2, button='left')
@@ -306,7 +298,7 @@ time.sleep(0.25)
 pag.typewrite('0')
 pag.press('enter')
 pag.click(x=17, y=158)
-#delet circle 
+#delet circle (if you want delet circle)
 ##time.sleep(0.25)
 ##pag.doubleClick(x=951, y=603)
 ##time.sleep(0.25)
