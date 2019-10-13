@@ -1,13 +1,13 @@
 import pyautogui as pag
 import time
-import sys
 
-print(''' before run the code read readme file or help file. otherwise It happens disaster\n\n''')
-Que =input("Newly installed Corel draw(Settings have not changed)? [yes] or [no]")
+
+print(''' before run the code read readme file or help file. otherwise It happens disaster\n''')
+que = pag. confirm(text='Newly installed Corel draw(Settings have not changed)?', title='alert!! alert!!', buttons=['yes', 'no'])
 for i in range (1,6):
     time.sleep(1)
     print(i)
-if Que == 'yes':
+if que == 'yes':
     #create new windows in corel draw (its to work if Newly installed Corel draw and Settings have not changed)   
     pag.click(x=77, y=153)
     time.sleep(1)
@@ -23,11 +23,11 @@ if Que == 'yes':
     pag.typewrite('300',interval=0.25)
     pag.click()
     pag.click(x=1025, y=735,interval= 0.25)
-elif Que == 'no' :
+elif que == 'no' :
     print('continuee')
 else :
-    sys.exit
-    
+    quit()
+
 #||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 #ADD COLOR
 pag.click(x=80, y=970,interval=0.5)
@@ -311,6 +311,7 @@ pag.moveTo(x=950, y=518)
 time.sleep(0.25)
 pag.dragTo(947,400,2, button='left')
 time.sleep(0.25)
+
 
 
 
