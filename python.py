@@ -3,7 +3,7 @@ import time
 
 
 print(''' before run the code read readme file or help file. otherwise It happens disaster\n''')
-que = pag. confirm(text='Newly installed Corel draw(Settings have not changed)?', title='alert!! alert!!', buttons=['yes', 'no'])
+que = pag.confirm(text='Newly installed Corel draw(Settings have not changed)?', title='alert!! alert!!', buttons=['yes', 'no'])
 for i in range (1,6):
     time.sleep(1)
     print(i)
@@ -28,7 +28,6 @@ elif que == 'no' :
 else :
     quit()
 
-#||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 #ADD COLOR
 pag.click(x=80, y=970,interval=0.5)
 pag.click(x=80, y=926,interval=0.5)
@@ -57,10 +56,6 @@ pag.click(x=1133, y=763,interval=0.5)
 #complate press ok
 pag.moveTo(1073, 788)
 pag.click()
-
-#|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-
-
 
 #creation backgrand
 pag.click(x=18, y=373,interval=0.5)
@@ -276,18 +271,18 @@ pag.press('e')
 time.sleep(0.5)
 pag.click(x=19, y=477)
 time.sleep(0.25)
-pag.click(x=950, y=446)
+pag.click(x=951, y=472) #click on circle for My writing
 pag.doubleClick(x=667, y=111)
 time.sleep(0.25)
 pag.typewrite('Morohashi')
-time.sleep(0.25)
+time.sleep(0.5)
 pag.doubleClick(x=870, y=113)
-time.sleep(0.25)
+time.sleep(0.5)
 pag.typewrite('350')
-time.sleep(0.25)
+time.sleep(0.5)
 pag.press('enter')
-time.sleep(0.25)
-pag.typewrite('Python/Naser')
+time.sleep(0.5)
+pag.typewrite('Python/00011')
 time.sleep(0.25)
 pag.doubleClick(x=175, y=114)
 time.sleep(0.25)
@@ -311,12 +306,3 @@ pag.moveTo(x=950, y=518)
 time.sleep(0.25)
 pag.dragTo(947,400,2, button='left')
 time.sleep(0.25)
-
-
-
-
-
-
-
-
-
