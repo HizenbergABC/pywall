@@ -1,7 +1,7 @@
 #### Creating a Python Logo on CorelDraw using Python programming (automatically)
 
-##### `ALERT!!`
-  1. First item
-  2. Second item
-  3. Third item
-  4. Fourth item
+##### `ALERT!!`Notes before running the pywall
+  * The program should only run on the Corel Draw
+  * The program Tested on Screen with a picture ratio 16.9
+  * If you have installed Corel for a long time, reset the settings
+  * 
