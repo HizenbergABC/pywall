@@ -3,8 +3,9 @@ import time
 
 
 print(''' before run the code read readme file or help file. otherwise It happens disaster\n''')
-que = pag.confirm(text='Newly installed Corel draw(Settings have not changed)?', title='alert!! alert!!', buttons=['yes', 'no'])
-for i in range (1,6):
+que = pag.confirm(text='Newly installed Corel draw(Settings have not changed)?', title='alert!! 11011', buttons=['yes', 'no'])
+pag.alert(text='You have ten seconds to select the program Coreldraw as the current window ', title='guide', button='OK')
+for i in range (1,10):
     time.sleep(1)
     print(i)
 if que == 'yes':
@@ -24,7 +25,8 @@ if que == 'yes':
     pag.click()
     pag.click(x=1025, y=735,interval= 0.25)
 elif que == 'no' :
-    print('continuee')
+    pag.click(x=77, y=153)
+    pag.click(x=861, y=573)
 else :
     quit()
 
