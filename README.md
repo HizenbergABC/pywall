@@ -12,7 +12,7 @@ ________________________________________________________________________________
  
  ![Philadelphia's Magic Gardens. This place was so cool!](/photos/open_corel.jpg)
  
- >2. Run `Pwall`
+ >2. Run `pywall`
  
 **Attention** >>After the `alert!! 11011` you have a few moments to select the environment where you want the commands to run (Must be the current window)
 
