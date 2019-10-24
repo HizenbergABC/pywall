@@ -1,7 +1,9 @@
 import pyautogui as pag
 import time
 
-
+##for i in range (1,4):
+##    time.sleep(1)
+##    print(i)
 print(''' before run the code read readme file or help file. otherwise It happens disaster\n''')
 que = pag.confirm(text='Newly installed Corel draw(Settings have not changed)?', title='alert!! 11011', buttons=['yes', 'no'])
 pag.alert(text='You have ten seconds to select the program Coreldraw as the current window ', title='guide', button='OK')
@@ -273,7 +275,7 @@ pag.press('e')
 time.sleep(0.5)
 pag.click(x=19, y=477)
 time.sleep(0.25)
-pag.click(x=951, y=472) #click on circle for My writing
+pag.click(x=950, y=456) #click on circle for My writing
 pag.doubleClick(x=667, y=111)
 time.sleep(0.25)
 pag.typewrite('Morohashi')
@@ -300,11 +302,11 @@ pag.click(x=17, y=158)
 ##pag.doubleClick(x=951, y=603)
 ##time.sleep(0.25)
 ##pag.press('del')
-pag.click(x=16, y=595)
-time.sleep(0.25)
-pag.click(x=942, y=431)
-time.sleep(0.25)
-pag.moveTo(x=950, y=518)
-time.sleep(0.25)
-pag.dragTo(947,400,2, button='left')
-time.sleep(0.25)
+##pag.click(x=16, y=595)
+##time.sleep(0.25)
+##pag.click(x=942, y=431)
+##time.sleep(0.25)
+##pag.moveTo(x=950, y=555)
+##time.sleep(0.25)
+##pag.dragTo(947,400,2, button='left')
+##time.sleep(0.25)
