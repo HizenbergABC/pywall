@@ -12,9 +12,11 @@ ________________________________________________________________________________
  
  ![Philadelphia's Magic Gardens. This place was so cool!](/photos/open_corel.jpg)
  
- >2.Run `Pwall`
+ >2. Run `Pwall`
  
 **Attention** >>After the `alert!! 11011` you have a few moments to select the environment where you want the commands to run (Must be the current window)
 
-
+ >3. This wallpaper is automatically designed for you
+ 
+ ![Philadelphia's Magic Gardens. This place was so cool!](/photos/output_pywall.jpg) 
 
